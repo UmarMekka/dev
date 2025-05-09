@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <div>
+        <h1>Welcome To My... Portfolio?</h1>
         <img className="logo" src={game_dev} alt="" />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
