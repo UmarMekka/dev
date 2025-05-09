@@ -1,4 +1,5 @@
 import game_dev from './assets/Game Dev.png'
+import linkedin from './assets/linkedin.png'
 import './App.css'
 
 function App() {
@@ -10,12 +11,15 @@ function App() {
         <h1>Welcome To My... Portfolio?</h1>
         <img className="logo" src={game_dev} alt="" />
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Sorry for all the dust and construction materials. I'm in the middle of rebuilding my portfolio site.
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <p>
+        In the meantime, feel free to check out my LinkedIn!
       </p>
+      <a href="https://www.linkedin.com/in/umar-mekkaoui/">
+        <img src={linkedin} alt="linkedin icon" />
+      </a>
     </>
   )
 }

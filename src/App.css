@@ -5,8 +5,13 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 30px;
+}
+
 .logo {
-  height: 20em;
+  width: 100%;
+  max-width: 20rem;
   padding: 1.5em;
 }
 
