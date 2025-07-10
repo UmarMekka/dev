@@ -1,0 +1,42 @@
+header {
+  margin: 0;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.jokeSection {
+  width: 50%;
+}
+
+#punchline {
+  color: var(--summer-catalog--v04-1-hex);
+  min-height: 100px;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background: var(--summer-catalog--v04-2-hex);
+}
+
+#getJoke {
+  margin-left: 25px;
+  border-style: none;
+  color: var(--summer-catalog--v04-3-hex);
+  background-color: var(--summer-catalog--v04-4-hex);
+  padding: 5px 0 4px 0;
+  width: 100px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .jokeSection {
+    width: 80%;
+  }
+  #punchline {
+    margin: 30px 10px 10px 10px;
+  }
+  #getJoke {
+    width: 100px;
+    margin: auto;
+  }
+}
