@@ -1,0 +1,362 @@
+:root {
+  --gray-dark: #474c5e;
+  --light-blue: #ddecff;
+  --summer-catalog--v04-3-hex: rgb(245, 238, 220);
+  --summer-catalog--v04-4-hex: #dc4c1a;
+  --summer-catalog--v04-5-hex: #f0986c;
+}
+
+* {
+  color: var(--gray-dark);
+  font-family: montserrat, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-image: url("LP_1_BG.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header p {
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+}
+h1 {
+  font-size: 30px;
+  color: var(--gray-dark);
+  font-family: montserrat, sans-serif;
+  letter-spacing: 3px;
+}
+
+.nameLogo-LP1,
+h3,
+header h2,
+section h3,
+h3 a,
+nav a {
+  font-family: montserrat, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--gray-dark);
+}
+
+.links button {
+  border-radius: 8px;
+}
+/* nav button:nth-of-type(3) {
+  background-color: var(--gray-dark);
+  color: white;
+} */
+
+button {
+  margin: auto;
+}
+
+.hamburger {
+  fill: var(--gray-dark);
+}
+
+.vehicleInfo {
+  text-align: center;
+  flex-direction: column;
+  margin: 50px auto 5px auto;
+  width: 70%;
+  max-width: 1200px;
+  color: var(--summer-catalog--v04-2-hex);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+section {
+  background: none;
+}
+
+.vehicle_image {
+  width: 100%;
+  max-width: 600px;
+}
+
+.offer {
+  position: relative;
+  position: relative;
+  font-family: montserrat, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+.offer-bg {
+  background-color: #111b40c4;
+  width: 100%;
+  height: 100%;
+}
+
+.offer-container {
+  display: inline-block;
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+.offer-text {
+  font-size: 25px;
+  color: #fff;
+}
+
+.offer-price {
+  font-size: 45px;
+  color: #fff;
+}
+
+.mini-price {
+  font-size: 30px;
+  text-align: top;
+  color: #fff;
+}
+
+.CTA {
+  padding-bottom: 30px;
+}
+.CTA button {
+  font-family: montserrat, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 15px;
+  width: 25%;
+  min-width: 300px;
+  overflow: hidden;
+  background: none;
+  position: relative;
+  color: #fff;
+  border: 2px solid #ddecff;
+  border-radius: 7px;
+  background-color: #ddecff67;
+  mix-blend-mode: none;
+  z-index: 2;
+}
+
+.smooth_button:before {
+  content: "";
+  top: 0;
+  left: 0px;
+  width: 120%;
+  height: 100%;
+  background-color: #ddecff;
+  position: absolute;
+  transition: all 1s;
+  z-index: -1;
+  transform: translateX(-105%) skew(-15deg);
+  transform-origin: right bottom;
+  mix-blend-mode: none;
+}
+
+.smooth_button:hover:before {
+  transform: translateX(-10%) skew(-15deg);
+  mix-blend-mode: none;
+}
+
+.smooth_button:hover {
+  border: 2px solid #ddecff;
+  transition: all 0.5s ease-out;
+  mix-blend-mode: none;
+}
+.smooth_button:hover .buttonText {
+  color: #424a66;
+  transition: all 0.5s ease-out;
+  mix-blend-mode: none;
+}
+
+.featureNav {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: none;
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.prev {
+  background-image: url("LP_1_NavLeft.png");
+}
+
+.next {
+  background-image: url("LP_1_NavRight.png");
+}
+
+.featureImages {
+  position: relative;
+  text-align: center;
+}
+
+.featureImageSlider {
+  width: 300px;
+  margin: 0 10px;
+  /* transition: 0.5s ease-in-out; */
+  height: 200px;
+}
+
+.carousel {
+  padding: 0 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.feature {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.featureImage {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transition: 0.5s;
+}
+
+.featureImageOne {
+  opacity: 1;
+}
+.featureImageTwo {
+  opacity: 0;
+}
+.featureImageThree {
+  opacity: 0;
+}
+
+.featureInfo {
+  padding: 20px;
+}
+
+.featureInfo h1 {
+  text-transform: uppercase;
+}
+
+.featureInfo p {
+  margin-bottom: 25px;
+}
+
+button {
+  /* width: 160px; */
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.learnMoreButton {
+  width: 160px;
+  background: #ffffff;
+  color: #1e1ca4;
+  font-weight: bold;
+}
+
+.bush {
+  width: 10%;
+  position: absolute;
+}
+
+.bushLeft {
+  left: 0;
+  bottom: 0;
+}
+
+.bushRight {
+  right: 0;
+  bottom: 0;
+}
+
+.disc {
+  font-size: 11px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+/* X-Small */
+@media (min-width: 0px) and (max-width: 511px) {
+  .links {
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .offer-container {
+    width: 100%;
+  }
+  .carousel {
+    flex-wrap: wrap;
+  }
+  .feature {
+    justify-content: space-between;
+    flex-direction: column;
+    order: 1;
+  }
+  .flexButtons {
+    order: 2;
+  }
+  .featureInfo {
+    text-align: center;
+    padding: 0;
+  }
+  .featureInfo p {
+    margin-bottom: 0;
+  }
+}
+
+/* Small */
+@media (min-width: 512px) and (max-width: 767px) {
+  .links {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .offer-container {
+    width: 100%;
+  }
+  .carousel {
+    flex-wrap: wrap;
+  }
+  .feature {
+    justify-content: space-between;
+    flex-direction: column;
+    order: 1;
+  }
+  .flexButtons {
+    order: 2;
+  }
+  .featureInfo {
+    text-align: center;
+    padding: 0;
+  }
+  .featureInfo p {
+    margin-bottom: 0;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .links {
+    width: 500px;
+  }
+}
+
+/* Large */
+@media (min-width: 1024px) {
+  .links {
+    width: 500px;
+  }
+}
