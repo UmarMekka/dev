@@ -1,0 +1,402 @@
+:root {
+  --red-main: #5a998b;
+  --red-dark: #5a998b;
+  --yellow-main: #faead7;
+  --yellow-dark: #faead7;
+  --brown: #000000;
+  --white: #ffffff;
+  --green: #5a998b;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Roboto&display=swap");
+* {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: var(--brown);
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#background_wrap {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("UX_CaseStudy_1_BG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+header {
+  background-image: none;
+  background-color: var(--red-main);
+}
+
+.nameLogo_UX1 {
+  font-family: "cabin", arial black, arial;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav button:nth-of-type(3) {
+  padding-top: 5px;
+  /* background-color: var(--yellow-main);
+  color: var(--brown); */
+}
+
+.hamburger {
+  fill: var(--yellow-main);
+}
+
+.hero {
+  background-color: var(--yellow-main);
+  background-size: cover;
+  background-position: right;
+}
+
+.UX_Intro {
+  text-align: left;
+  margin: auto;
+  max-width: 1200px;
+  color: var(--brown);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 30px 0 30px;
+}
+
+.hero_image {
+  max-width: 60%;
+}
+
+.UX_Intro h1 {
+  color: var(--brown);
+  font-family: "Cabin";
+
+  text-transform: uppercase;
+}
+
+.UX_Intro p:nth-of-type(1) {
+  font-size: 25px;
+}
+
+.bigger {
+  font-weight: 600;
+  color: var(--red-main);
+}
+
+.colors {
+  padding: 5px 0;
+}
+
+.introduction {
+  /* width: 50%; */
+  padding: 0 35px 35px 35px;
+  color: var(--brown);
+}
+
+.divider {
+  background-color: var(--green);
+}
+
+.divider h3 {
+  color: var(--yellow-main);
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.yellow-section {
+  width: 100%;
+  background-color: var(--yellow-main);
+  padding: 35px 25px 25px 25px;
+}
+
+.pain-points ul {
+  padding: 0 0 20px 25px;
+}
+
+.info-dump li {
+  list-style: none;
+}
+
+.pain-points li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+.digital-conversion li::before {
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.digital-conversion li:nth-of-type(1):before {
+  content: "A";
+}
+.digital-conversion li:nth-of-type(2):before {
+  content: "B";
+}
+.digital-conversion li:nth-of-type(3):before {
+  content: "C";
+}
+
+.info-dump {
+  text-align: left;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  padding: 10px 20px 20px 20px;
+}
+
+.image-dump {
+  text-align: left;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  padding: 10px 20px 20px 20px;
+}
+
+.mini-column {
+  color: var(--brown);
+  width: 50%;
+  padding: 10px;
+}
+
+.mini-column-3 {
+  color: var(--brown);
+  width: 33%;
+  padding: 10px;
+}
+
+.mini-column-7 {
+  color: var(--brown);
+  width: 66%;
+  padding: 10px;
+}
+
+section h3 {
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-family: "cabin", arial black, arial;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mini-column span,
+.mini-column-3 span,
+.mini-column-7 span {
+  color: var(--red-dark);
+  font-family: "cabin", arial black, arial;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.mini-column p {
+  padding-bottom: 5px;
+}
+
+.clear-section {
+  text-align: center;
+  margin: 50px auto;
+  width: 70%;
+  max-width: 1400px;
+  color: var(--brown);
+  padding-bottom: 20px;
+}
+
+.clear-section h2 {
+  color: var(--red-main);
+}
+
+section h2 {
+  text-align: center;
+  margin: auto;
+  font-size: 55px;
+  font-family: "cabin", arial black, arial;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Design Thinking */
+.design-thinking {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.design-step {
+  width: 20%;
+  padding-bottom: 25px;
+}
+
+.design-step h3 {
+  padding-top: 10px;
+}
+
+.design-step li {
+  list-style: none;
+}
+
+.design-icon {
+  max-width: 100px;
+}
+
+.personas {
+  padding: 20px 0 35px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.persona {
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.IA {
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.lofi {
+  margin: auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.prototype-img {
+  margin: auto;
+  padding: 10px 0 30px;
+  width: 100%;
+  max-width: 800px;
+  display: block;
+}
+
+.prototypes {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color: var(--brown);
+  /* display: flex;
+      justify-content: center;
+      align-items: center; */
+  padding: 20px;
+}
+
+.prototypes a {
+  margin: 20px 0;
+  display: inline-block;
+}
+.screen-example {
+  display: inline-block;
+  height: 300px;
+}
+
+.proto-demo {
+  background-color: var(--red-main);
+  color: var(--white);
+  font-size: 20px;
+  padding: 15px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 900px) {
+  .design-step {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: url("GuntzBurger-HeroBanner-BG-Mobile.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+  .UX_Intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .introduction {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0 40px 0;
+  }
+  .hero_image {
+    max-width: 90%;
+  }
+  .info-dump {
+    flex-direction: column;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .mini-column,
+  .mini-column-3,
+  .mini-column-6 {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .personas {
+    flex-direction: column;
+  }
+  .persona {
+    margin: auto;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 800px;
+  }
+  .clear-section {
+    margin: 20px auto;
+    width: 90%;
+  }
+  .design-thinking {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .design-step {
+    width: 50%;
+  }
+}
