@@ -1,0 +1,459 @@
+:root {
+  --summer-catalog--v04-1-hex: rgb(45, 104, 145);
+  --summer-catalog--v04-2-hex: #b5def1;
+  --summer-catalog--v04-3-hex: rgb(245, 238, 220);
+  --summer-catalog--v04-4-hex: #dc4c1a;
+  --summer-catalog--v04-5-hex: #f0986c;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: proxima-nova, sans-serif;
+}
+
+h2,
+h3,
+h3 a {
+  font-family: cubano, sans-serif;
+  font-weight: 300;
+}
+
+.light {
+  text-align: center;
+  color: var(--summer-catalog--v04-1-hex);
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  background-image: radial-gradient(
+      rgba(32, 81, 116, 0.911),
+      rgba(2, 24, 37, 0.959)
+    ),
+    url("white-grey-wall-geological-phenomenon-pattern-geology-1559833-pxhere.com.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+nav {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--summer-catalog--v04-3-hex);
+}
+
+.nameLogo {
+  font-size: 25px;
+  color: var(--summer-catalog--v04-3-hex);
+  font-weight: 700;
+}
+
+.hamburger {
+  fill: var(--summer-catalog--v04-5-hex);
+  width: 22px;
+  display: none;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+button {
+  color: var(--summer-catalog--v04-3-hex);
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav h3 {
+  color: var(--summer-catalog--v04-3-hex);
+}
+
+/* nav button:nth-of-type(3) {
+  background-color: var(--summer-catalog--v04-4-hex);
+} */
+
+.linkedin {
+  width: 30px;
+}
+
+.cta {
+  background-color: var(--summer-catalog--v04-4-hex);
+  font-size: 20px;
+  padding: 2px 12px;
+}
+
+.cta:nth-of-type(1) {
+  margin-top: 10px;
+}
+
+.aboutMe,
+.dadJokeAppSection,
+display_gallery {
+  margin: 50px auto 0 auto;
+  width: 70%;
+  max-width: 1200px;
+  color: var(--summer-catalog--v04-2-hex);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  color: var(--summer-catalog--v04-3-hex);
+  font-family: cubano, sans-serif;
+  line-height: 1;
+}
+
+header h2 {
+  color: var(--summer-catalog--v04-5-hex);
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.profilePicture,
+.dadJokeLogo {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 30px 0 0;
+  filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.795));
+}
+
+.introduction {
+  padding-bottom: 30px;
+}
+
+.skillSet {
+  background-image: radial-gradient(
+      rgba(245, 238, 220, 0.92),
+      rgba(245, 238, 220, 0.92)
+    ),
+    url("white-grey-wall-geological-phenomenon-pattern-geology-1559833-pxhere.com.jpg");
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.skillSet h3,
+.contactMe h3 {
+  color: var(--summer-catalog--v04-1-hex);
+}
+
+.skill {
+  padding: 10px 20px 20px 20px;
+  width: 35%;
+}
+
+.skill h3 {
+  padding-bottom: 5px;
+}
+
+.skill p {
+  color: var(--summer-catalog--v04-1-hex);
+  font-weight: 600;
+}
+
+/* .icons {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+} */
+
+.demos {
+  color: var(--summer-catalog--v04-2-hex);
+  background-image: radial-gradient(
+      rgba(32, 81, 116, 0.911),
+      rgba(2, 24, 37, 0.959)
+    ),
+    url("white-grey-wall-geological-phenomenon-pattern-geology-1559833-pxhere.com.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 0;
+  align-items: center;
+}
+
+.demoRow {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 45px 0;
+  align-items: center;
+}
+
+.shirtDemo {
+  width: 90%;
+  filter: drop-shadow(0 20px 20px rgb(0, 0, 0));
+}
+
+.demo {
+  padding: 20px;
+  width: 30%;
+}
+
+.demoImage {
+  width: 30%;
+  text-align: center;
+  overflow: visible;
+}
+
+.demo h2 {
+  font-size: 40px;
+  color: var(--summer-catalog--v04-3-hex);
+}
+
+.demo h3 {
+  color: var(--summer-catalog--v04-5-hex);
+  padding-bottom: 5px;
+}
+
+.demo p {
+  padding-bottom: 5px;
+}
+
+.demo button {
+  margin-bottom: 20px;
+}
+
+.contactMeSection {
+  background-image: radial-gradient(
+      rgba(245, 238, 220, 0.92),
+      rgba(245, 238, 220, 0.92)
+    ),
+    url("white-grey-wall-geological-phenomenon-pattern-geology-1559833-pxhere.com.jpg");
+}
+
+/* Contact Form */
+.findYour {
+  color: var(--summer-catalog--v04-1-hex);
+  font-weight: 600;
+}
+
+.typing {
+  position: relative;
+  font-family: cubano, sans-serif;
+  color: var(--summer-catalog--v04-5-hex);
+  height: 50px;
+  font-size: 40px;
+  vertical-align: top;
+}
+
+.typing::after {
+  content: "";
+  position: absolute;
+  border-right: 2px solid white;
+  animation: blink 0.8s infinite;
+  vertical-align: bottom !important;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.contactMeApp {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 700px;
+  padding: 35px 0;
+}
+
+.contactMeForm button {
+  background-color: var(--summer-catalog--v04-4-hex);
+}
+
+.contactMeApp input,
+.contactMeApp textarea {
+  font-size: 16px;
+  display: block;
+  margin: 10px 0;
+  padding: 2px 5px;
+  border: none;
+  color: var(--summer-catalog--v04-1-hex);
+  font-weight: 600;
+}
+
+::placeholder {
+  color: var(--summer-catalog--v04-5-hex);
+}
+
+#message {
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 1280px) {
+  .aboutMe {
+    width: 85%;
+  }
+  .demo {
+    width: 40%;
+  }
+  .demoImage {
+    width: 35%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .demoRow {
+    padding: 10px 0 30px 0;
+  }
+  .profilePicture {
+    width: 100%;
+    max-width: 250px;
+  }
+  .demoImage {
+    width: 40%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .demoImage {
+    width: 80%;
+    text-align: center;
+  }
+  .demoRow {
+    padding: 10px 0 20px 0;
+  }
+  .hamburger {
+    display: block;
+  }
+  .links {
+    margin: 0px;
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+    animation: expand 0.5s forwards;
+    /* position: absolute; */
+  }
+  .links.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+  }
+  .links.unexpand {
+    animation: unexpand 0.5s forwards;
+  }
+  .links button {
+    background-color: none;
+    animation: appear 0.8s forwards;
+  }
+  .links button.disappear {
+    background-color: none;
+    animation: disappear 0.2s forwards;
+  }
+  nav button:nth-of-type(3) {
+    background: none;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .aboutMe,
+  .dadJokeAppSection {
+    flex-direction: column;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding-bottom: 30px;
+  }
+  .profilePicture {
+    margin: 0 0 30px 0;
+  }
+  .introduction {
+    padding-bottom: 10px;
+  }
+  .skillSet {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skill {
+    width: 80%;
+  }
+  .demoRow {
+    flex-direction: column;
+  }
+  .demo {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes unexpand {
+  0% {
+    margin: 50;
+    height: 83px;
+  }
+  100% {
+    margin: 0;
+    height: 0px;
+  }
+}
+
+@keyframes expand {
+  0% {
+    height: 0px;
+    margin: 0;
+  }
+  100% {
+    margin-bottom: 0px;
+    height: 90px;
+  }
+}
